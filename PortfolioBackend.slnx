@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="src/API/Portfolio.API.csproj">
+      <BuildDependency Project="src/Domain/Portfolio.Domain.csproj" />
+    </Project>
+  </Folder>
+  <Folder Name="/src/API/wwwroot/">
+    <File Path="placeholder.txt" />
+  </Folder>
+  <Folder Name="/src/Application/">
+    <Project Path="src/Application/Portfolio.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Domain/">
+    <Project Path="src/Domain/Portfolio.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/Portfolio.Infrastructure.csproj" />
+  </Folder>
+</Solution>
