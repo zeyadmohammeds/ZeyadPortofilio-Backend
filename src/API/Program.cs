@@ -91,7 +91,13 @@ builder.Services.AddCors(options =>
                 "http://localhost:8080",
                 "http://localhost:8081",
                 "https://zeyadportfolio.runasp.net",
-                "https://zeyadmohammeds.pages.dev")
+                "https://zeyadmohammeds.pages.dev",
+                // Vercel production & preview deployments
+                "https://zeyad-portofilio.vercel.app",
+                "https://zeyad-portofolio-frontend.vercel.app",
+                "https://zeyad-portofilio-frontend.vercel.app",
+                "https://zeyadportofilio-frontend.vercel.app",
+                "https://zeyadmohammeds-portfolio.vercel.app")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
